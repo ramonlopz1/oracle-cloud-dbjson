@@ -24,7 +24,7 @@ module.exports = class ClienteService {
         return new ClienteService();
     }
 
-    static async getAll() {
+    async getAll() {
         let connection;
         const result = [];
 
@@ -69,7 +69,7 @@ module.exports = class ClienteService {
     }
 
 
-    static async getById(clienteId) {
+    async getById(clienteId) {
         let connection, cliente, result;
 
         try {
