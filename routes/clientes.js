@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const asyncHandler = require('express-async-handler');
 
-const CLIENTE_SERVICE = 'ClienteService';
+const CLIENTE_SERVICE = 'clienteService';
 
 // Lista todos os clientes
 router.get('/', asyncHandler(async (req, res) => {

@@ -41,6 +41,9 @@ module.exports = class ClienteService {
 
             // recebe os registros dos clientes
             let clientes = await clienteCollection.find().getDocuments();
+
+            console.log("clientes:", clientes)
+
             // faz forEach no array de registros de clientes
             clientes.forEach((element) => {
                 result.push({
