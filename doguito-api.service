@@ -8,11 +8,11 @@ After=network.target
 
 [Service]
 Environment="DB_USER=ADMIN"
-Environment="DB_PASSWORD=???"
-Environment="CONNECT_STRING=???"
+Environment="DB_PASSWORD=Ramonzinnxdd182@"
+Environment="CONNECT_STRING=tnsnames.ora"
 Type=simple
 User=opc
-ExecStart=/usr/bin/node /home/opc/doguito-api/bin/www
+ExecStart=/usr/bin/node /home/opc/doguito/doguito-api/bin/www
 Restart=on-failure
 
 [Install]
